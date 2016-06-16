@@ -1,0 +1,3 @@
+1. libmad在编译时会报-fforce-mem标志出错， 去makefile里去掉这个标志，因为gcc4.3之后就不支持这个标志
+
+2. opencv安装时遇到问题 去掉cl2cpp.cmake第50行后重新make就可以安装成功
